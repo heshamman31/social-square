@@ -1,0 +1,92 @@
+/* start variables */
+:root {
+}
+/* end variables */
+/* start global rules */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+/* end global rules */
+img {
+  width: 100%;
+}
+div.test {
+  min-width: 250px;
+  max-width: 250px;
+}
+#new-post-btn {
+  position: fixed;
+  right: 80px;
+  bottom: 70px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#new-post-btn i {
+    color: rgb(0, 110, 37);
+  }
+@media (max-width: 991px) {
+  #new-post-btn {
+    right: 20px;
+    bottom: 70px;
+  }
+  #new-post-btn i {
+    color: rgb(240, 0, 0);
+  }
+}
+#new-post-btn:hover {
+  color: rgb(22, 22, 22);
+}
+bold{
+    font-weight: bold;
+}
+/* loaders style */
+.loader {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  position: relative;
+}
+.loader::after,
+.loader::before {
+  content: "";
+  width: 48px;
+  height: 48px;
+  border: 2px solid #1278ff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  animation: rotation 2s ease-in-out infinite;
+}
+.loader::after {
+  border-color: #b12b02;
+  animation-delay: 1s;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* loaders style // */
