@@ -1,0 +1,2 @@
+A social media platform that allows you to view other people’s posts, create an account, log in to add posts,updat and delete posts, make comments on posts, view other people’s comments, and view your and others’ profile . i used in this project Pagination (infinite scrolling) , authentication and authorization (Barer Token).
+Technologies : HTML , CSS , Bootstrap , JAVASCRIPT , REST API , Axios Library , npm , Postman
